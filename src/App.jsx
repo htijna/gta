@@ -47,11 +47,14 @@ function App() {
         <header>
           <div className="logo-container">
             <span className="rockstar-star">&#9733;</span>
-            <h1>VI</h1>
+            <h1>
+              <span className="sr-only">Grand Theft Auto </span>
+              VI
+            </h1>
           </div>
         </header>
 
-        <section className="countdown-section">
+        <section className="countdown-section" aria-label="Countdown to GTA 6 release">
           <p className="subtitle">RETURN TO VICE CITY</p>
           <h2 className="main-title">Coming Fall 2026</h2>
           
