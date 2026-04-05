@@ -1,0 +1,27 @@
+:root {
+  --primary: #FF00FF;
+  --secondary: #00FFFF;
+  --accent: #FFD700;
+  --bg-dark: #0A0A0A;
+  --text-light: #F0F0F0;
+  --glass-bg: rgba(15, 15, 15, 0.4);
+  --glass-border: rgba(255, 0, 255, 0.1);
+  --transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+  font-family: 'Outfit', sans-serif;
+  overflow-x: hidden;
+}
+
+#root {
+  min-height: 100vh;
+}
